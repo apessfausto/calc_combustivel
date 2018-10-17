@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <TextView
+            android:id="@+id/title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="Descubra o que esta mais em conta:"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:visibility="visible"
+            tools:fontFamily="casual" />
+
+
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gasolina" />
+
+    <EditText
+            android:id="@+id/val1_txt"
+            android:layout_width="144dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:hint="R$"
+            android:inputType="numberDecimal" />
+
+
+    <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alcool" />
+
+    <EditText
+            android:id="@+id/val2_txt"
+            android:layout_width="144dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:hint="R$"
+            android:inputType="numberDecimal" />
+
+    <Button
+            android:id="@+id/result_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcular" />
+
+
+</LinearLayout>
